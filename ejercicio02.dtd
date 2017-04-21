@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mail (direccion,fecha,hora,asunt?o,to,(NoEsSpam|esSpam),contenido, archivos)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT to (email+)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email conocido(si|no) #REQUIRED>
+<!ELEMENT NoEsSpam EMPTY>
+<!ELEMENT esSpam EMPTY>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT archivos (archivo*)>
+<!ELEMENT archivo (#PCDATA)>
