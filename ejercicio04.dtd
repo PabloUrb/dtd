@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pelicula (titulo, director+, año, elemento,genero)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT elemento (protagonista+|tematica+)>
+<!ELEMENT protagonista (#PCDATA)>
+<!ELEMENT tematica (#PCDATA)>
+<!ELEMENT genero EMPTY>
+<!ATTLIST genero tipo (drama|comedia|documental|terror|thriller|humor) #REQUIRED>

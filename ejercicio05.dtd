@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT contactos (contacto+)>
+<!ELEMENT contacto (nombre, Papellido, Sapellido, edad, direccion, telefono+,es_familiar?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT Papellido (#PCDATA)>
+<!ELEMENT Sapellido (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT direccion (Tvia, piso?, puerta?, numero, cpostal, poblacion, pais)>
+<!ELEMENT Tvia (#PCDATA)>
+<!ELEMENT piso (#PCDATA)>
+<!ELEMENT puerta (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cpostal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT es_familiar EMPTY>
+<!ATTLIST Tvia tipo (calle|plaza|carretera) #REQUIRED>
+<!ATTLIST telefono tipo (fijo | movil |casa | trabajo) #REQUIRED>

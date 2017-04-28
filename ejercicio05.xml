@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contactos SYSTEM "ejercicio05.dtd">
+
+<contactos>
+    <contacto>
+        <nombre>Pablo</nombre>
+        <Papellido>urbano</Papellido>
+        <Sapellido>murillo</Sapellido>
+        <edad>18</edad>
+        <direccion>
+            <Tvia tipo="calle">calle</Tvia>
+            <piso>segundo</piso>
+            <puerta>4</puerta>
+            <numero>4</numero>
+            <cpostal>08031</cpostal>
+            <poblacion>barcelona</poblacion>
+            <pais>españa</pais>
+        </direccion>
+        <telefono tipo="fijo">933</telefono>
+        <telefono tipo="fijo">933</telefono>
+        <es_familiar />
+    </contacto>
+</contactos>

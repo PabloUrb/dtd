@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mail SYSTEM ejercicio02.dtd>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<mail>
+    <direccion>miDireccion@m.com</direccion>
+    <fecha>3-9-2017</fecha>
+    <hora>10:20</hora>
+    <asunto>bla bla</asunto>
+    <to>
+        <email conocido="si">tuDireccion@m.com</email>
+        <email conocido="no">tu2Direccion@m.com</email>
+    </to>
+    <NoEsSpam />
+    <contenido>Saludos</contenido>
+    <archivos>
+        <archivo>fotoBoda01.jpg</archivo>
+        <archivo>fotoBoda02.jpg</archivo>
+    </archivos>
+</mail>

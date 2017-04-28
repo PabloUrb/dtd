@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mail SYSTEM ejercicio02.dtd>
+<!DOCTYPE juego SYSTEM "ejercicio02.dtd">
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -7,19 +7,36 @@ and open the template in the editor.
 -->
 
 
-<mail>
-    <direccion>miDireccion@m.com</direccion>
-    <fecha>3-9-2017</fecha>
-    <hora>10:20</hora>
-    <asunto>bla bla</asunto>
-    <to>
-        <email conocido="si">tuDireccion@m.com</email>
-        <email conocido="no">tu2Direccion@m.com</email>
-    </to>
-    <NoEsSpam />
-    <contenido>Saludos</contenido>
-    <archivos>
-        <archivo>fotoBoda01.jpg</archivo>
-        <archivo>fotoBoda02.jpg</archivo>
-    </archivos>
-</mail>
+<juego>
+    <nombre>Run to Mordor</nombre>
+    <ubicacion>Tierra Media</ubicacion>
+    <equipo>
+        <nombre>La comunidad del anillo</nombre>
+        <director>Gandalf</director>
+        <jugadores>
+            <jugador>
+                <nombre>Bilbo</nombre>
+                <apellido>Bolsón</apellido>
+                <funcion>andar</funcion>
+                <fSecundaria>tirar anillo</fSecundaria>
+            </jugador>
+            <jugador>
+                <nombre> Samsagaz </nombre>
+                <apellido>Gamyi</apellido>
+                <funcion>cuidar de Bilbo</funcion>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Malotes</nombre>
+        <director>Sauron</director>
+        <jugadores>
+            <jugador>
+                <nombre>Orco</nombre>
+                <cantidad>1000</cantidad>
+                <funcion>perseguir</funcion>
+            </jugador>
+        </jugadores>
+    </equipo>
+</juego>
+

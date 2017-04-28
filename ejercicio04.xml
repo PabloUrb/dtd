@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula SYSTEM "ejercicio04.dtd">
+
+
+<pelicula>
+    <titulo>insidious</titulo>
+    <director>James Wan</director>
+    <año>2011</año>
+    <elemento>
+         <tematica>miedo</tematica>
+           <tematica>miedo</tematica>
+    </elemento>
+    <genero tipo='drama'/>
+</pelicula>
