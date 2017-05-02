@@ -12,7 +12,9 @@ and open the template in the editor.
             <xs:sequence>
                 <xs:element name="coche"  maxOccurs="unbounded">
                 <xs:complexType>
+                    
                     <xs:sequence>
+                        
                         <xs:element name="matricula" type="xs:string"/>
                         <xs:element name="color" >
                             <xs:simpleType >
@@ -23,12 +25,13 @@ and open the template in the editor.
                                 </xs:restriction>
                             </xs:simpleType>
                         </xs:element>
-                        <xs:element name="model"> 
+                        <xs:element name="modelo"> 
                             <xs:complexType  mixed="true">
                                 <xs:attribute name="year"  use="required"/>
                             </xs:complexType>
                         </xs:element>
                     </xs:sequence>
+                    <xs:attribute name="tipo"  use="required"/>
                 </xs:complexType>
                 </xs:element>
             </xs:sequence>
