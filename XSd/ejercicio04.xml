@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<sms  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio04.xsd">
+    <nombre telefono="666464485">Pablo</nombre>
+    <receptor telf="65845199">Pau</receptor>
+    <longitud>888</longitud>
+    <fecha>16-8-2017</fecha>
+</sms>

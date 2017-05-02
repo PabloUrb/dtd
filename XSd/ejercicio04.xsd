@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="sms">
+        <xs:complexType>              
+            <xs:sequence>                  
+                <xs:element name="nombre">
+                    <xs:complexType  mixed="true">
+                        <xs:attribute name="telefono"  use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="receptor" >
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="telf" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="longitud"/>
+                <xs:element name="fecha"/>
+            </xs:sequence>
+            <xs:attribute name="telefono" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
